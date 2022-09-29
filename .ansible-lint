@@ -1,0 +1,11 @@
+---
+skip_list:
+  - fqcn-builtins
+  - yaml[key-duplicates]
+  - name[casing]
+  - jinja[spacing]
+exclude_paths:
+  - .github/workflows
+  - .pre-commit-config.yaml
+  - roles/executable_python/meta/main.yml
+  - roles/python/meta/main.yml
